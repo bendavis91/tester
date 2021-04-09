@@ -29,5 +29,5 @@ xhttp.onreadystatechange = function() {
       document.querySelector("#profileList").innerHTML = profileCardHtml;
   }
 };
-xhttp.open("GET", "../lib/dev-profiles-resources/scripts/devs-data.txt", true);
+xhttp.open("GET", "https://bendavis91.github.io/tester/demo/lib/dev-profiles-resources/scripts/devs-data.txt", true);
 xhttp.send();
